@@ -1,0 +1,12 @@
+build:
+  ci:
+    # this includes literal newline after pytest
+    - >
+      pytest
+        --long_option1
+        --long_option2
+  on_success:
+    - >
+      # Comments can mess things up.
+      pip install poetry-dynamic-versioning &&
+      poetry build
