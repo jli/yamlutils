@@ -1,0 +1,7 @@
+# standard python stuff
+__pycache__/
+*.py[cod]
+.env/
+.venv/
+env/
+venv/
