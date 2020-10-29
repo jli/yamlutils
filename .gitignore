@@ -6,4 +6,8 @@ __pycache__/
 env/
 venv/
 
+# Python pex output
 *.pex
+
+# Rust
+/target
