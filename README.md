@@ -24,6 +24,8 @@ pipe to `jq .` for nice colors.
 ```sh
 python3 -m venv venv
 source venv/bin/activate
+# to update requirements:
+# pip install -U pip pip-tools; pip-compile
 pip install -r requirements.txt
 ./bin/make_pex.sh
 mv yaml2json.pex ~/bin/
